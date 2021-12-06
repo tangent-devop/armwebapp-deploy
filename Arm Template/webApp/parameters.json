@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "e3ee360d-47a8-4d33-8764-fd8d92501c05"
+        },
+        "name": {
+            "value": "tangwebapp"
+        },
+        "location": {
+            "value": "UK West"
+        },
+        "hostingPlanName": {
+            "value": "tang-appplan"
+        },
+        "serverFarmResourceGroup": {
+            "value": "Test-Arm-RG"
+        },
+        "alwaysOn": {
+            "value": false
+        },
+        "sku": {
+            "value": "Free"
+        },
+        "skuCode": {
+            "value": "F1"
+        },
+        "workerSize": {
+            "value": "0"
+        },
+        "workerSizeId": {
+            "value": "0"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "currentStack": {
+            "value": "dotnetcore"
+        },
+        "phpVersion": {
+            "value": "OFF"
+        },
+        "errorLink": {
+            "value": "https://tangwebapp.scm.azurewebsites.net/detectors?type=tools&name=eventviewer"
+        }
+    }
+}
